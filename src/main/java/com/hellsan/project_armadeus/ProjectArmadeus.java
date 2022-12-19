@@ -20,6 +20,8 @@ public class ProjectArmadeus
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "project_armadeus";
     private static final Logger LOGGER = LogUtils.getLogger();
+
+    // Hello word :)
     public ProjectArmadeus()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
